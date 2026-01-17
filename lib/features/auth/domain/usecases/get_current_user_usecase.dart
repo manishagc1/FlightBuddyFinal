@@ -1,0 +1,17 @@
+import 'package:dartz/dartz.dart';
+import 'package:equatable/equatable.dart';
+import 'package:flightbuddy/core/error/failures.dart';
+import 'package:flightbuddy/core/usecases/app_usecases.dart';
+
+class GetCurrentUserUsecaseParams extends Equatable {
+  const GetCurrentUserUsecaseParams();
+  @override
+  List<Object?> get props => [];
+}
+
+class GetCurrentUserUsecase implements UsecaseWithoutParams{
+  @override
+  Future<Either<Failure, dynamic>> call() {
+    throw UnimplementedError();
+  }
+}
